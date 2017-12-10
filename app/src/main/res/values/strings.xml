@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Z</string>
     <string name="action_settings">Settings</string>
+
+    <string name="main_title">Календарь</string>
+    <string name="comment_hint">Введите свой комментарий</string>
 </resources>
