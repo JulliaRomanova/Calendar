@@ -1,14 +1,14 @@
 package com.example.julia.z;
 
 import android.os.Bundle;
-import android.preference.EditTextPreference;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.widget.EditText;
-import android.widget.Toast;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.Toast;
+
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        boolean b = onCreateOptionsMenu(menu);
         menu.add(0, 1, 0, "add");
         menu.add(0, 2, 0, "edit");
         menu.add(0, 3, 3, "delete");
